@@ -4,5 +4,58 @@
  Paleta de cores
  amarelo: #FAD85F
  laranja: #FAAF5C
- verde: #D1DC54
+ verde com amarelo: #D1DC54
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div#formulario > h1.girassol-regular {
+    display: block;
+    font-family: "Girassol", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+}
+
+body, html {
+    background-color: #D1DC54;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #D1DC54 url(../imagens/login.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: center center;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
