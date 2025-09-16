@@ -2,9 +2,9 @@
 
 /* 
  Paleta de cores
- amarelo: #FAD85F
+ amarelo: #DDBF54
  laranja: #FAAF5C
- verde com amarelo: #D1DC54
+
 */
 
 * {
@@ -22,7 +22,7 @@ div#formulario > h1.girassol-regular {
 }
 
 body, html {
-    background-color: #D1DC54;
+    background-color: #FAAF5C;
     height: 100vh;
     width: 100vw;
 }
@@ -39,12 +39,16 @@ section#login {
     left: 50%;
 
     transform: translate(-50%,-50%);
+    /* Overflow para tirar o excesso e deixar o background arredondado: */
     overflow: hidden;
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+
+    transition: width 0.3s, heith 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -58,4 +62,8 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
 }
