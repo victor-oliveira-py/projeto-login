@@ -115,7 +115,7 @@ div.campo > input{
     border-radius: 8px;
     padding: 2px 2.140px 0px 2px;
     /* SEMPRE QUE FAZER ANIMAÇÃO POR O TRANSFORM POR ÚLTIMO */
-    transform: translateY(-10px);
+    transform: translateY(-10.6px);
 }
 
 form > input[type=submit]{
