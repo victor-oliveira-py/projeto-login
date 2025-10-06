@@ -3,8 +3,8 @@
 /* 
  Paleta de cores
  amarelo: #DDBF54
- laranja: #FAAF5C
- verde: #A AAA58
+ laranja: #FAAF5C / #a3733b
+ verde: #AAAA58
 */
 
 * {
@@ -84,8 +84,8 @@ div.campo > input:focus-within{
 }
 
 form > div.campo{
-    border: 3px solid #aaaa5886;
-    background-color: #aaaa58b6;
+    border: 3px solid #c98d48;
+    background-color: #c98d48;
     display: block;
     width: 100%;
     height: 40px;
@@ -114,7 +114,8 @@ div.campo > input{
     border: 0px;
     border-radius: 8px;
     padding: 2px 2.140px 0px 2px;
-    transform: translateY(-10.8px);
+    /* SEMPRE QUE FAZER ANIMAÇÃO POR O TRANSFORM POR ÚLTIMO */
+    transform: translateY(-10px);
 }
 
 form > input[type=submit]{
